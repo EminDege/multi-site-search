@@ -1,8 +1,10 @@
 import React, { useRef, useState } from "react";
 
 function App() {
+  
   const [query, setQuery] = useState("");
   const [mode, setMode] = useState("research");
+
 
   // Sitelerin bilgileri
   const [sites, setSites] = useState({
@@ -31,6 +33,7 @@ function App() {
       },
     }));
   };
+
 
   const handleSearchAll = () => {
     Object.entries(sites).forEach(([name, site]) => {
