@@ -104,7 +104,7 @@ function App() {
               }
             }}
           />
-          <button className="btn" style={{ backgroundColor: "#ff8c42", color: "white" }}>
+          <button className="btn" style={{ backgroundColor: "#ff8c42", color: "white" }} onClick={handleSearchAll}>
             Search All
           </button>
 
